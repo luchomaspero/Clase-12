@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Cambios Monetarios</title>
+</head>
+<body>
+    <h1>Cargando...</h1>
+    <div>La fecha de hoy es: <strong id="fechaHoy"></strong></div>
+    <form name="formulario" id="consultaDeCambio">
+        <p>Elija la moneda de cambio: <input type="text" maxlength="3" id="monedaUsuario" name="monedaUsuario"></p>
+        <p>Elija la fecha: <input type="date" id="fechaUsuario" name="fechaUsuario" value="" min="1999-01-04" max=""></p>
+        <p><button type="button" id="boton">Actualizar</button></p>
+
+    </form>
+    <div id="error" class="error">
+
+    </div>
+    
+    
+    <ul>
+    </ul>
+    
+    <div id="pares" class="oculto"></div>
+
+    <div id="resultado">Cargando...</div>
+    <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="script/main.js"></script>
+
+</body>
+
+</html>

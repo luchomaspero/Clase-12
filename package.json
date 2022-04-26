@@ -1,0 +1,18 @@
+{
+  "name": "clase-12",
+  "version": "1.0.0",
+  "description": "clase 12",
+  "main": "clase-12-jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.13"
+  }
+}
