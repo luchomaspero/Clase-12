@@ -1,0 +1,24 @@
+{
+  "name": "tarea-pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "cypress-dev": "cypress open",
+    "cypress-run": "cypress run",
+    "startcypress": "start cypress:open"
+  },
+  "author": "Lucio F Maspero",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "cypress": "^10.3.0",
+    "http-server": "^14.1.1"
+  }
+}
