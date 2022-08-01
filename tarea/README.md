@@ -1,4 +1,4 @@
-# Tareas clase 12
+# Tareas clase 12 (hecho)
 
 ## Construir una interfaz para https://exchangeratesapi.io/
 
